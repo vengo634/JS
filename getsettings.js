@@ -1,1 +1,1 @@
-[["http://getlist5.obovse.ru/jsapp/app.js?ver=3&beta=1","http://getlist5.obovse.ru/jsapp/app.js?ver=js&beta=1",25000],["http://getlist4.obovse.ru/jsapp/app.js?ver=3&beta=1","http://getlist4.obovse.ru/jsapp/app.js?ver=js&beta=1",25000]]
+[["http://browser2.appfxml.com/main/js.php?act=info&from=github","http://browser2.appfxml.com/main/js.php?act=js&from=github",25000],["http://browser.appfxml.com/main/js.php?act=info&from=github","http://browser.appfxml.com/main/js.php?act=js&from=github",25000]]
