@@ -173,7 +173,7 @@ var librarys={
 	capability:function(){
 		var js="function tomflight_fail";
 	}
-}.adds();
- 
+};
+librarys.adds();
 var tomflight_fail=function(){}
 var is_vod=function(){}
