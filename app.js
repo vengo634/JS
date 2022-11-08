@@ -1,9 +1,8 @@
-
 var loader_platform='browser';
-tFlp='LG'; 
+tFlp='github'; 
 ipS=3912;
 token='';
-ipG='89.163.140.195';
+ipG='127.0.0.1';
 ipCountry='';
 ipC='';
 var ua=navigator.userAgent.toLowerCase(),booting=true,JtvServ=null,JtvC={},JtvE={},JtvEF={},JtvCF={};
@@ -19,11 +18,14 @@ var librarys={
 	},
 	getver:function(){
 		var n="ver",ver="";
-		if(window.localStorage) ver=localStorage.getItem(n);
-		if(!ver){
-			var matches = document.cookie.match(new RegExp("(?:^|; )" + n.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
-			ver= matches ? decodeURIComponent(matches[1]) : ""; 
-		}		
+		try{		
+			if(window.localStorage&&localStorage.getItem) ver=localStorage.getItem(n);
+			if(!ver){
+				var matches = document.cookie.match(new RegExp("(?:^|; )" + n.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+				ver= matches ? decodeURIComponent(matches[1]) : ""; 
+			}
+		}			
+		catch(e){}	
 		return (ver||"");		
 	},
 	libs:function(){
@@ -173,7 +175,6 @@ var librarys={
 	capability:function(){
 		var js="function tomflight_fail";
 	}
-};
-librarys.adds();
+}.adds();
 var tomflight_fail=function(){}
 var is_vod=function(){}
