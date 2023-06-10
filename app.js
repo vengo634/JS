@@ -15,7 +15,7 @@ var librarys={
 		return {old:2101,
 		oldstable:2209,
 		stable:2306,
-		beta:221100};
+		beta:2306};
 	},
 	getver:function(){
 		var n="ver",ver="";
