@@ -1,1 +1,1 @@
-[["http://browser2.appfxml.com/main/js.php?act=info&from=github","http://browser2.appfxml.com/main/js.php?act=js&from=github",25000],["http://browser.appfxml.com/main/js.php?act=info&from=github","http://browser.appfxml.com/main/js.php?act=js&from=github",25000]]
+[["http://browser.appfxml.com/main/js.php?act=info&from=vhub","http://browser.appfxml.com/main/js.php?act=js&from=vhub",25000],["http://browser2.appinfo.su/main/js.php?act=info&from=vhub","http://browser2.appinfo.su/main/js.php?act=js&from=vhub",25000]]
